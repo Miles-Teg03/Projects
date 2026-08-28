@@ -20,12 +20,3 @@ In the future i'd like to extend this program to:
 * Header/column-name normalization — no matching Abs/OD/Absorbance variants to a canonical name; Currently assuming the input CSV has the exact header row of : sample_id,group,absorbance.
 * More than two groups for ANOVA — run_stats() assumes exactly two groups and a third group (e.g. blank, positive/negative control) isn't handled. 
 * No handling of metadata rows above the header, multiple wavelength columns, or non-tabular instrument quirks; assumes a clean, header-first CSV.
-
-#### To Do: 
-* def plot_summary:
-  need to be able to save the plot 
-* def run_stats
-  needs writing
-  needs save capability
-* def save_progress
-  needs writing - create do you want to save y or n branch.
