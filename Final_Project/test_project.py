@@ -2,10 +2,6 @@ import pytest
 from project import load_data
 from project import clean_data
 from project import summarise_data
-from project import plot_summary
-from project import run_stats
-from project import save_progress
-
 
 
 def test_load_data(tmp_path):

@@ -61,7 +61,7 @@ def load_data(name): # reads the csv - returns a list of dicts
         reader = csv.DictReader(csvfile)
         return list(reader)
 
-def clean_data(loaded_file): # flags missing / non-numeric - 'cleans' it
+def clean_data(loaded_file): # removes rows containing non-numeric absorbances - converts absorbances to floats.
 
     cleaned = []
     for row in loaded_file:

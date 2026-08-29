@@ -1,0 +1,11 @@
+sample_id,group,absorbance
+S001,control,0.405
+S002,control,0.412
+S003,control,0.398
+S004,control,0.421
+S005,control,
+S006,treatment,0.688
+S007,treatment,0.701
+S008,treatment,0.672
+S009,treatment,invalid
+S010,treatment,0.695
