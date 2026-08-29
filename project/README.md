@@ -1,5 +1,7 @@
 # Lab Absorbance Data Cleaner V1.0
-## Video Demo: [URL HERE]
+## Video Demo: 
+
+https://youtu.be/x60U5-k_ILM
 
 ## About the Project:
 As a Biochemistry student I have often need to take absorbance readings using a spectrophotometer. After collecting the data I also have to clean it, calculate the means and standard deviations, perform statistical tests, create figures... Doing this manually can be repetitive and time-consuming, which is why I'm creating a simple program that will allow me to automate some of this process.
